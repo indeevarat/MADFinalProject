@@ -9,15 +9,11 @@ Project description goes here
   <tbody>
 <tr>
     <td align="center" valign="center">
-<img src="https://github.com/htmw/Languru/blob/main/documentation/Images/Indeevara.jpeg" height="300" width="225"><br>Indeevara Tadikonda<br>(<a href="mailto:it49412n@pace.edu">it49412n@pace.edu</a>)</td>
+<img src="" height="300" width="225"><br>Indeevara Tadikonda<br>(<a href="mailto:it49412n@pace.edu">it49412n@pace.edu</a>)</td>
     <td align="center" valign="center">
 <img src="" height="300" width="225"><br>Hemanvitha Mylapalli<br>(<a href="mailto:hm18290n@pace.edu">hm18290n@pace.edu</a>)</td>
     <td align="center" valign="center">
-<img src="" height="300" width="225"><br>Aidan Farrell - <br>Quality Analyst And Tester<br>(<a href="mailto:af71644n@pace.edu">af71644n@pace.edu</a>)</td>
+<img src="" height="300" width="225"><br>Aidan Farrell<br>(<a href="mailto:af71644n@pace.edu">af71644n@pace.edu</a>)</td>
   </tr>
     </tbody>
 </table>
-<br>
-## Idea Proposal and Research
-    [View Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.pdf) | [Download Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.docx)
-    

@@ -15,3 +15,8 @@ Project description goes here
     <td align="center" valign="center">
 <img src="" height="300" width="225"><br>Aidan Farrell - <br>Quality Analyst And Tester<br>(<a href="mailto:af71644n@pace.edu">af71644n@pace.edu</a>)</td>
   </tr>
+    </tbody>
+</table>
+## Idea Proposal and Research
+    [View Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.pdf) | [Download Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.docx)
+    

@@ -17,6 +17,7 @@ Project description goes here
   </tr>
     </tbody>
 </table>
+<br>
 ## Idea Proposal and Research
     [View Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.pdf) | [Download Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.docx)
     

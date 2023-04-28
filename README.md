@@ -1,6 +1,6 @@
 # MADFinalProject
 ## Team 6 Mobile Application Development Project
-## App Name
+## PaceFinity
   ![Application logo goes here in the following parentheses]()
 ## Project Description
 Project description goes here

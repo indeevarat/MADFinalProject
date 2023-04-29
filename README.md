@@ -3,7 +3,7 @@
 ## PaceFinity
   ![Application logo goes here in the following parentheses](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Logo.png)
 ## Project Description
-fff
+Pacefinity is a multipurpose tool that centralizes all sorts of information about finances at Pace. It has a financial aid calculator built in, it will also have information about scholarships and will link to external resources depending on what the student needs. We also want to add a feature that let's the student figure out what the price of each class will cost/ be able to break down their cost of a semester down to the class just so they know exactly what they will be paying
 ## Team Members
 <table align="center" role="table">
   <tbody>

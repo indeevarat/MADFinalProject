@@ -22,7 +22,7 @@ Project description goes here
 [View Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.pdf) | [Download Idea proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.docx)
 ## Project Design
 ![Pictures describing project description must go here]()<br>
-[View Project Design](https://github.com/indeevarat/MADFinalProject/blob/main/Design.docx) | [Download Project Design]()
+[View Project Design]() | [Download Project Design](https://github.com/indeevarat/MADFinalProject/blob/main/Design.docx)
 ## Languages and tools
 Logos of the languages and tools that we use goes here
 # Final Project Deliverables

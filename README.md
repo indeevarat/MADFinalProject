@@ -1,7 +1,7 @@
 # MADFinalProject
 ## Team 6 Mobile Application Development Project
 ## PaceFinity
-  ![Application logo goes here in the following parentheses]()
+  ![Application logo goes here in the following parentheses](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Logo.png)
 ## Project Description
 Project description goes here
 ## Team Members

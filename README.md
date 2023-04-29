@@ -36,6 +36,6 @@ Logos of the languages and tools that we use goes here
 ## Product Backlog
 [View Product Backlog]() | [Download product Backlog]()
 ## Product Personaas
-1. [Persona 1]()
-2. [Persona 2]()
-3. [Persona 3]()
+1. [Persona 1](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Persona1.png)
+2. [Persona 2](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Persona2.png)
+3. [Persona 3](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Persona3.png)

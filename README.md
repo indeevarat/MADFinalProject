@@ -9,7 +9,7 @@ Project description goes here
   <tbody>
 <tr>
     <td align="center" valign="center">
-<img src="" height="300" width="225"><br>Indeevara Tadikonda<br>(<a href="mailto:it49412n@pace.edu">it49412n@pace.edu</a>)</td>
+<img src="https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Indeevara.JPG" height="300" width="225"><br>Indeevara Tadikonda<br>(<a href="mailto:it49412n@pace.edu">it49412n@pace.edu</a>)</td>
     <td align="center" valign="center">
 <img src="" height="300" width="225"><br>Hemanvitha Mylapalli<br>(<a href="mailto:hm18290n@pace.edu">hm18290n@pace.edu</a>)</td>
     <td align="center" valign="center">

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Pacefinity</string>
+    <string name="financial_calculator">Financial Calculator</string>
+    <string name="household_income">Enter Household Income</string>
+    <string name="tuition_fee">Enter Tuition Fee</string>
+    <string name="enter_gpa">Enter GPA</string>
+    <string name="estimated_financial_aid">Estimated Financial Aid</string>
+    <string name="not_eligible_for_aid">Not eligible for aid</string>
+    <string name="_2f">%.2f</string>
+    <string name="calculate_aid">Calculate Aid</string>
+    <string name="navigate">Navigate</string>
 </resources>

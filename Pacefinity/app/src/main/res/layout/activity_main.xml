@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    >
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/go_to"
+        android:text="@string/navigate"
+        android:onClick="openFinancialAidCalculator"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="280dp"
+        tools:ignore="MissingConstraints,UsingOnClickInXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

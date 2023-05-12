@@ -9,4 +9,13 @@
     <string name="_2f">%.2f</string>
     <string name="calculate_aid">Calculate Aid</string>
     <string name="navigate">Navigate</string>
+    <string name="title_activity_external_resources">external_resources</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="scholar_one">Benjamin A. Gilman International Scholarship Program supports U.S. undergraduate students of limited financial means to study or intern abroad. Under the Gilman Program, the John McCain International Scholarship for Children of Military Families supports U.S. undergraduate students who are children of active duty military personnel to study or intern abroad.</string>
+    <string name="ext">External Resources</string>
+    <string name="info">INFORMATION FOR U.S. UNDERGRADUATE AND GRADUATE STUDENTS</string>
+    <string name="scholar_two">Fulbright U.S. Student Program sends recent college graduates and early career professionals to live, study and conduct research abroad in 140 countries.</string>
+    <string name="scholar_three">Foreign Language and Area Studies (FLAS) Fellowships provide opportunities for outstanding undergraduate and graduate students to engage in area studies and world language training at schools that have established a FLAS fellowship program. FLAS provides allocations of fellowships to institutions of higher education, which then make awards directly to meritorious undergraduate students and graduate students. Students must be enrolled at and apply through a FLAS-recipient institution.</string>
+    <string name="info2">BELOW ARE ADDITIONAL PROGRAMS THAT PROVIDE FUNDING FOR EDUCATION AND RESEARCH.  WHILE NOT EXCLUSIVELY FOR INTERNATIONAL PROGRAMS, THEY DO ALLOW FOR STUDY AND RESEARCH ABROAD</string>
 </resources>

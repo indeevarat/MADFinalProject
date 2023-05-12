@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openExternalResources(View view) {
+        Intent intent = new Intent(this, external_resources.class);
+        startActivity(intent);
+    }
+
 }

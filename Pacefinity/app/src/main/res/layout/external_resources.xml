@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/gilman_text_view"
+        android:layout_width="390dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/scholar_one"
+        android:textAlignment="textStart"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/fulbright_text_view"
+        android:layout_width="390dp"
+        android:layout_height="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="128dp"
+        android:text="@string/scholar_two"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/flas_text_view"
+        android:layout_width="390dp"
+        android:layout_height="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/scholar_three"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="374dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/info2"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

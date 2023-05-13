@@ -21,20 +21,15 @@ Pacefinity is a multipurpose tool that centralizes all sorts of information abou
 ## Idea proposal and Research
 [View Idea Proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.pdf) | [Download Idea proposal and Research](https://github.com/indeevarat/MADFinalProject/blob/main/Idea%20Proposal.docx)
 ## Project Design
-![Pictures describing project description must go here]()<br>
 [View Project Design](https://github.com/indeevarat/MADFinalProject/blob/main/Design.pdf) | [Download Project Design](https://github.com/indeevarat/MADFinalProject/blob/main/Design.docx)
 ## Languages and tools
 Logos of the languages and tools that we use goes here
 # Final Project Deliverables
 ## Presentations
-[Watch Project Presentation Video]() | [Download Presentation Video]()<br>
-[View Project Presentation Slides]() | [Download Project Presentation Slides]()
-## Sprint Burndown
-[View Sprint1 Burndown]() | [Download Sprint1 Burndown]()<br>
-[View Sprint2 Burndown]() | [Download Sprint2 Burndown]()<br>
-[View Sprint3 Burndown]() | [Download Sprint3 Burndown]()<br>
+[Watch Project Presentation Video](https://www.youtube.com/watch?v=aAIdvqoJWEo) | [Download Presentation Video](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/VIDEO-2023-05-13-12-07-17-2.mp4) <br>
+[View Project Presentation Slides](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PaceFinity-2.pdf) | [Download Project Presentation Slides](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PaceFinity.pptx)
 ## Product Backlog
-[View Product Backlog](https://docs.google.com/document/d/1LZB-z18Wd3vFcSz4Bj45GzMdxnK9APs-R8JE7ZjlLcQ/edit) | [Download product Backlog]()
+[View Product Backlog](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PB.png) | [Download product Backlog]()
 ## Product Personaas
 1. [Persona 1](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Persona1.png)
 2. [Persona 2](https://github.com/indeevarat/MADFinalProject/blob/indeevara/Pictures/Persona2.png)

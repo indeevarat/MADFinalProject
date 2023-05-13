@@ -27,7 +27,7 @@ Logos of the languages and tools that we use goes here
 # Final Project Deliverables
 ## Presentations
 [Watch Project Presentation Video]() | [Download Presentation Video]()<br>
-[View Project Presentation Slides]() | [Download Project Presentation Slides]()
+[View Project Presentation Slides](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PaceFinity-2.pdf) | [Download Project Presentation Slides](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PaceFinity.pptx)
 ## Product Backlog
 [View Product Backlog](https://docs.google.com/document/d/1LZB-z18Wd3vFcSz4Bj45GzMdxnK9APs-R8JE7ZjlLcQ/edit) | [Download product Backlog]()
 ## Product Personaas

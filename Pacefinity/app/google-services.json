@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1011736100843",
+    "project_id": "pacefinity-622d5",
+    "storage_bucket": "pacefinity-622d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011736100843:android:4a2fd9e026a3ef76e6e3ae",
+        "android_client_info": {
+          "package_name": "com.example.pacefinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011736100843-be3nqq9799qda3cqgb8nbijps0cp57mv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pacefinity",
+            "certificate_hash": "e653a43f97d7d9364360de8cf2a53b0c7d7ebf31"
+          }
+        },
+        {
+          "client_id": "1011736100843-bipqfdiv0p83h8vccghbmgt64cvspfl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyComwlTo6tPAAhW1TF3B77KHURDnXsX8cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011736100843-bipqfdiv0p83h8vccghbmgt64cvspfl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

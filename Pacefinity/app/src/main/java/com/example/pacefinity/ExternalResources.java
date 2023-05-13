@@ -3,46 +3,61 @@ package com.example.pacefinity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.pacefinity.databinding.ActivityExternalResourcesBinding;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class external_resources extends AppCompatActivity {
+public class ExternalResources extends AppCompatActivity {
 
-    private ActivityExternalResourcesBinding binding;
+    // Find the TextView that displays the text "Benjamin A. Gilman International Scholarship Program"
+    TextView gilmanTextView = findViewById(R.id.gilman_text_view);
+
+    // Find the TextView that displays the text "Fulbright U.S. Student Program"
+    TextView fulbrightTextView = findViewById(R.id.fulbright_text_view);
+
+    // Find the TextView that displays the text "Foreign Language and Area Studies (FLAS) Fellowships"
+    TextView flasTextView = findViewById(R.id.flas_text_view);
+
+
+    // Find the TextView that displays the text "Project GO"
+    TextView pgoTextView = findViewById(R.id.pgo_text_view);
+
+
+    // Find the TextView that displays the text "The Congress Bundestag Youth Exchange (CBYX)"
+    TextView cbyxTextView = findViewById(R.id.cbyx_text_view);
+
+    // Find the TextView that displays the text "Fulbright-Hays Doctoral Dissertation Research Abroad (DDRA) Fellowship Program "
+    TextView ddraTextView = findViewById(R.id.ddra_text_view);
+
+    // Find the TextView that displays the text "Barry Goldwater Scholarship and Excellence in Education Program "
+    TextView barryTextView = findViewById(R.id.barry_text_view);
+
+    // Find the TextView that displays the text "Export.gov"
+    TextView exportTextView = findViewById(R.id.export_text_view);
+
+    // Find the TextView that displays the text "National Science Foundation"
+    TextView nsfTextView = findViewById(R.id.nsf_text_view);
+
+    // Find the TextView that displays the text "Harry S. Truman Scholarship Foundation "
+    TextView hsfTextView = findViewById(R.id.hsf_text_view);
+
+    // Find the TextView that displays the text "NOAA Educational Partnership Program Undergraduate Scholarship "
+    TextView noaaTextView = findViewById(R.id.noaa_text_view);
+
+    // Find the TextView that displays the text "Science To Achieve Results (STAR)"
+    TextView starTextView = findViewById(R.id.star_text_view);
+
+    // Find the TextView that displays the text "Stokes Scholarship Program"
+    TextView stokesTextView = findViewById(R.id.stokes_text_view);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        binding = ActivityExternalResourcesBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
 
-        Toolbar toolbar = binding.toolbar;
-        setSupportActionBar(toolbar);
-        CollapsingToolbarLayout toolBarLayout = binding.toolbarLayout;
-        toolBarLayout.setTitle(getTitle());
-
-        FloatingActionButton fab = binding.fab;
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-        // Find the TextView that displays the text "Benjamin A. Gilman International Scholarship Program"
-        TextView gilmanTextView = findViewById(R.id.gilman_text_view);
 
         // Set an OnClickListener on the TextView
         gilmanTextView.setOnClickListener(new View.OnClickListener() {
@@ -60,11 +75,10 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Fulbright U.S. Student Program"
-        TextView fulbrightTextView = findViewById(R.id.fulbright_text_view);
+
 
         // Set an OnClickListener on the TextView
-        fulbrightTextView.setOnClickListener(new View.OnClickListener(){
+        fulbrightTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -80,11 +94,9 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Foreign Language and Area Studies (FLAS) Fellowships"
-        TextView flasTextView = findViewById(R.id.flas_text_view);
 
         // Set an OnClickListener on the TextView
-        flasTextView.setOnClickListener(new View.OnClickListener(){
+        flasTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -100,11 +112,8 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Project GO"
-        TextView pgoTextView = findViewById(R.id.pgo_text_view);
-
         // Set an OnClickListener on the TextView
-        pgoTextView.setOnClickListener(new View.OnClickListener(){
+        pgoTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -120,11 +129,9 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "The Congress Bundestag Youth Exchange (CBYX)"
-        TextView cbyxTextView = findViewById(R.id.cbyx_text_view);
 
         // Set an OnClickListener on the TextView
-        cbyxTextView.setOnClickListener(new View.OnClickListener(){
+        cbyxTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -140,11 +147,10 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Fulbright-Hays Doctoral Dissertation Research Abroad (DDRA) Fellowship Program "
-        TextView ddraTextView = findViewById(R.id.ddra_text_view);
+
 
         // Set an OnClickListener on the TextView
-        ddraTextView.setOnClickListener(new View.OnClickListener(){
+        ddraTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -160,11 +166,10 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Barry Goldwater Scholarship and Excellence in Education Program "
-        TextView barryTextView = findViewById(R.id.barry_text_view);
+
 
         // Set an OnClickListener on the TextView
-        barryTextView.setOnClickListener(new View.OnClickListener(){
+        barryTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -180,11 +185,9 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Export.gov"
-        TextView exportTextView = findViewById(R.id.export_text_view);
 
         // Set an OnClickListener on the TextView
-        exportTextView.setOnClickListener(new View.OnClickListener(){
+        exportTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -200,11 +203,10 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "National Science Foundation"
-        TextView nsfTextView = findViewById(R.id.nsf_text_view);
+
 
         // Set an OnClickListener on the TextView
-        nsfTextView.setOnClickListener(new View.OnClickListener(){
+        nsfTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -220,11 +222,10 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Harry S. Truman Scholarship Foundation "
-        TextView hsfTextView = findViewById(R.id.hsf_text_view);
+
 
         // Set an OnClickListener on the TextView
-        hsfTextView.setOnClickListener(new View.OnClickListener(){
+        hsfTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -240,11 +241,9 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "NOAA Educational Partnership Program Undergraduate Scholarship "
-        TextView noaaTextView = findViewById(R.id.noaa_text_view);
 
         // Set an OnClickListener on the TextView
-        noaaTextView.setOnClickListener(new View.OnClickListener(){
+        noaaTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -260,11 +259,10 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Science To Achieve Results (STAR)"
-        TextView starTextView = findViewById(R.id.star_text_view);
+
 
         // Set an OnClickListener on the TextView
-        starTextView.setOnClickListener(new View.OnClickListener(){
+        starTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -280,11 +278,9 @@ public class external_resources extends AppCompatActivity {
             }
         });
 
-        // Find the TextView that displays the text "Stokes Scholarship Program"
-        TextView stokesTextView = findViewById(R.id.stokes_text_view);
 
         // Set an OnClickListener on the TextView
-        stokesTextView.setOnClickListener(new View.OnClickListener(){
+        stokesTextView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -299,15 +295,7 @@ public class external_resources extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
     }
+
+
 }
-
-
-
-
-

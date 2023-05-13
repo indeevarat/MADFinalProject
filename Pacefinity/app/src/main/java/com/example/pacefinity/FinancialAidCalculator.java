@@ -41,12 +41,12 @@ public class FinancialAidCalculator extends AppCompatActivity {
             } else if (gpa >= 3.5) {
                 aidPercentage = 0.07;
             } else {
-                aidOutput.setText("Not eligible for aid");
+                aidOutput.setText(R.string.no_aid);
                 return;
             }
 
             double aidAmount = aidPercentage * tuitionFee;
-            aidOutput.setText("Your financial aid is USD " + String.format("%.2f", aidAmount));
+            aidOutput.setText(getString(R.string.your_financial_aid_is_usd) + String.format("%.2f", aidAmount));
         } else {
             aidOutput.setText("Not eligible for aid");
         }

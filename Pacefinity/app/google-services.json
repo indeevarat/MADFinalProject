@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671316538670",
+    "project_id": "pacefinity-466de",
+    "storage_bucket": "pacefinity-466de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671316538670:android:83794f0b09a6c717dfb6bf",
+        "android_client_info": {
+          "package_name": "com.example.pacefinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671316538670-1u0i9u1nfig7qavrs21fpdahksgg94vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJeqtE97H8Nb2Ay7Dly3sgknZP_Be7OiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671316538670-1u0i9u1nfig7qavrs21fpdahksgg94vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

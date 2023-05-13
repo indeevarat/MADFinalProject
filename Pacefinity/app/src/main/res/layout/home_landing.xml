@@ -20,7 +20,6 @@
             android:layout_marginBottom="76dp"
             android:text="@string/pacefinity"
             android:textSize="30sp"
-            app:fontFamily="@font/baloo"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +35,7 @@
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/toolbar"
             app:srcCompat="@drawable/icon"
-            tools:ignore="UnknownIdInLayout" />
+            tools:ignore="UnknownId,UnknownIdInLayout" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -68,7 +67,6 @@
                         android:layout_marginTop="10dp"
                         android:text="@string/financial_aid_calculator"
                         android:textSize="24sp"
-                        app:fontFamily="@font/Aclonica-Regular"
                       />
 
                     <ImageView
@@ -109,7 +107,6 @@
                         android:layout_marginTop="10dp"
                         android:text="@string/scholarship_page"
                         android:textSize="24sp"
-                        app:fontFamily="Aclonica-Regular.ttf"
                         />
 
                     <ImageView
@@ -149,7 +146,7 @@
                         android:layout_marginTop="10dp"
                         android:text="@string/external_resources"
                         android:textSize="24sp"
-                        app:fontFamily="Aclonica-Regular.ttf" />
+                        />
 
                     <ImageView
                         android:id="@+id/cycle"

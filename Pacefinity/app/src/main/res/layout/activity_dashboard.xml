@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Dashboard">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -71,11 +71,13 @@
 
                     <ImageView
                         android:id="@+id/cal"
+                        android:onClick="openFinancialAidCalculator"
                         android:layout_width="101dp"
                         android:layout_height="82dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/cal" />
+                        app:srcCompat="@drawable/cal"
+                        tools:ignore="UsingOnClickInXml"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -100,6 +102,7 @@
                     android:layout_height="match_parent">
                     <TextView
                         android:id="@+id/textView6"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/sch"
@@ -111,11 +114,13 @@
 
                     <ImageView
                         android:id="@+id/sch"
+                        android:onClick="openScholarships"
                         android:layout_width="112dp"
                         android:layout_height="73dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/sch" />
+                        app:srcCompat="@drawable/sch"
+                        tools:ignore="UsingOnClickInXml"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -150,11 +155,13 @@
 
                     <ImageView
                         android:id="@+id/res"
+                        android:onClick="openExternalResources"
                         android:layout_width="110dp"
                         android:layout_height="79dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/res" />
+                        app:srcCompat="@drawable/res"
+                        tools:ignore="UsingOnClickInXml" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 

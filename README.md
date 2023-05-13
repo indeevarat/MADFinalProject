@@ -26,7 +26,7 @@ Pacefinity is a multipurpose tool that centralizes all sorts of information abou
 Logos of the languages and tools that we use goes here
 # Final Project Deliverables
 ## Presentations
-[Watch Project Presentation Video]() | [Download Presentation Video]()<br>
+[Watch Project Presentation Video](https://www.youtube.com/watch?v=aAIdvqoJWEo) <br>
 [View Project Presentation Slides](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PaceFinity-2.pdf) | [Download Project Presentation Slides](https://github.com/indeevarat/MADFinalProject/blob/main/Pictures/PaceFinity.pptx)
 ## Product Backlog
 [View Product Backlog](https://docs.google.com/document/d/1LZB-z18Wd3vFcSz4Bj45GzMdxnK9APs-R8JE7ZjlLcQ/edit) | [Download product Backlog]()

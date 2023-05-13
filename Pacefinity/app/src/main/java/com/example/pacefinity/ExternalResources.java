@@ -1,3 +1,4 @@
+
 package com.example.pacefinity;
 
 import android.content.Intent;
@@ -55,7 +56,7 @@ public class ExternalResources extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.external_resources);
+        setContentView(R.layout.activity_external_resources);
 
 
 

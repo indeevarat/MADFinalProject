@@ -1,10 +1,9 @@
 package com.example.pacefinity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,15 +11,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-    public void openFinancialAidCalculator(View view) {
-        Intent intent = new Intent(this, FinancialAidCalculator.class);
-        startActivity(intent);
-    }
+        Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(loginIntent);
 
-    public void openExternalResources(View view) {
-        Intent intent = new Intent(this, external_resources.class);
-        startActivity(intent);
-    }
+        // Delay in milliseconds (1 second)
 
+    }
 }

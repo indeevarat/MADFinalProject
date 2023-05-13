@@ -62,7 +62,7 @@
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="29dp"
-                        android:layout_below="@id/bus"
+                        android:layout_below="@id/cal"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="@string/financial_aid_calculator"
@@ -70,7 +70,7 @@
                         />
 
                     <ImageView
-                        android:id="@+id/bus"
+                        android:id="@+id/cal"
                         android:layout_width="101dp"
                         android:layout_height="82dp"
                         android:layout_centerHorizontal="true"
@@ -102,7 +102,7 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/bus1"
+                        android:layout_below="@id/sch"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="@string/scholarship_page"
@@ -110,7 +110,7 @@
                         />
 
                     <ImageView
-                        android:id="@+id/bus1"
+                        android:id="@+id/sch"
                         android:layout_width="112dp"
                         android:layout_height="73dp"
                         android:layout_centerHorizontal="true"
@@ -141,7 +141,7 @@
                         android:id="@+id/textView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/cycle"
+                        android:layout_below="@id/res"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="@string/external_resources"
@@ -149,7 +149,7 @@
                         />
 
                     <ImageView
-                        android:id="@+id/cycle"
+                        android:id="@+id/res"
                         android:layout_width="110dp"
                         android:layout_height="79dp"
                         android:layout_centerHorizontal="true"

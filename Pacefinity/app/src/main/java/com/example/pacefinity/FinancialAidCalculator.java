@@ -15,7 +15,7 @@ public class FinancialAidCalculator extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.financial_aid_calculator);
+        setContentView(R.layout.activity_financial_aid_calculator);
 
         incomeInput = findViewById(R.id.income_input);
         feeInput = findViewById(R.id.fee_input);
@@ -52,4 +52,3 @@ public class FinancialAidCalculator extends AppCompatActivity {
         }
     }
 }
-

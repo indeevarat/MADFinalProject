@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.041"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp" />
+
+        <TextView
+            android:id="@+id/gilman_text_view"
+            android:layout_width="390dp"
+            android:layout_height="67dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp"
+            android:text="@string/scholar_one"
+            android:textAlignment="textStart"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/fulbright_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scholar_two"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gilman_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/flas_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scholar_three"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fulbright_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/pgo_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scholar_seven"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flas_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/cbyx_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/cbyx"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pgo_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/ddra_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/ddra"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbyx_text_view"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="390dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/info2"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/ddra_text_view"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp" />
+
+        <TextView
+            android:id="@+id/barry_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scholar_four"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading1"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/export_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scholar_five"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/barry_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/nsf_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scholar_six"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/export_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/hsf_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/hsf"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nsf_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/noaa_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/noaa"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hsf_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/star_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/star"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noaa_text_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/stokes_text_view"
+            android:layout_width="390dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/stokes"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/star_text_view"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

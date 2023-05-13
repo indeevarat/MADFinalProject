@@ -1,4 +1,146 @@
 <resources>
     <string name="app_name">Pacefinity</string>
+    <string name="financial_calculator">Financial Calculator</string>
+    <string name="household_income">Enter Household Income</string>
+    <string name="tuition_fee">Enter Tuition Fee</string>
+    <string name="enter_gpa">Enter GPA</string>
+    <string name="estimated_financial_aid">Estimated Financial Aid</string>
+    <string name="not_eligible_for_aid">Not eligible for aid</string>
+    <string name="_2f">%.2f</string>
+    <string name="calculate_aid">Calculate Aid</string>
+    <string name="navigate">Financial Aid Calculator</string>
+    <string name="Scholarships">Scholarships</string>
+    <string name="Header">Welcome to Pacefinity!</string>
+    <string name="ExternalR">External Resources</string>
     <string name="full_name">Full Name</string>
+    <string name="title_activity_external_resources">external_resources</string>
+    <string name="action_settings">Settings</string>
+    <string name="scholar_one">Benjamin A. Gilman International Scholarship Program supports U.S. undergraduate students of limited financial means to study or intern abroad. Under the Gilman Program, the John McCain International Scholarship for Children of Military Families supports U.S. undergraduate students who are children of active duty military personnel to study or intern abroad.</string>
+    <string name="ext">External Resources</string>
+    <string name="info">INFORMATION FOR U.S. UNDERGRADUATE AND GRADUATE STUDENTS</string>
+    <string name="scholar_two">Fulbright U.S. Student Program sends recent college graduates and early career professionals to live, study and conduct research abroad in 140 countries.</string>
+    <string name="scholar_three">Foreign Language and Area Studies (FLAS) Fellowships provide opportunities for outstanding undergraduate and graduate students to engage in area studies and world language training at schools that have established a FLAS fellowship program. FLAS provides allocations of fellowships to institutions of higher education, which then make awards directly to meritorious undergraduate students and graduate students. Students must be enrolled at and apply through a FLAS-recipient institution.</string>
+    <string name="info2">BELOW ARE ADDITIONAL PROGRAMS THAT PROVIDE FUNDING FOR EDUCATION AND RESEARCH.  WHILE NOT EXCLUSIVELY FOR INTERNATIONAL PROGRAMS, THEY DO ALLOW FOR STUDY AND RESEARCH ABROAD</string>
+    <string name="scholar_four">Barry Goldwater Scholarship and Excellence in Education Program provides a continuing source of highly qualified scientists, mathematicians, and engineers by awarding scholarships to college students who intend to pursue research careers in these fields.\n</string>
+    <string name="scholar_five">Export.gov provides internship opportunities with the U.S. Commercial Service in U.S. embassies abroad.\n</string>
+    <string name="scholar_six">National Science Foundation (NSF) supports international research and education through a variety of programs, including fellowships, travel grants, summer institutes, workshops, and research and education projects.</string>
+    <string name="scholar_seven">Project GO provides scholarships to ROTC students in three services for critical language study domestically and abroad.</string>
+    <string name="cbyx">The Congress Bundestag Youth Exchange (CBYX) provides merit-based scholarships to recent vocational graduates and young professionals for a one-year professional study and training experience in their fields of interest in Germany.</string>
+    <string name="ddra">Fulbright-Hays Doctoral Dissertation Research Abroad (DDRA) Fellowship Program provides opportunities to doctoral candidates to engage in full-time dissertation research abroad in modern foreign languages and area studies. Grants are given in all world areas except Western Europe as the program aims to encourage the study of regions and cultures that are not commonly explored.</string>
+    <string name="hsf">Harry S. Truman Scholarship Foundation awards merit-based scholarships to college students who plan to pursue careers in government or elsewhere in public service. Truman Scholars receive up to $30,000 for graduate or professional school, participate in leadership development activities, and have special opportunities for internships and employment with the federal government.</string>
+    <string name="star">Science To Achieve Results (STAR) Supports masters and doctoral candidates in environmental studies. Students can pursue degrees in traditionally recognized environmental disciplines as well as other fields such as social anthropology, urban and regional planning, and decision sciences.</string>
+    <string name="stokes">Stokes Scholarship Program develops students for future permanent employment while they pursue a degree relevant to NGA’s mission. The intent of the Stokes Scholarship Program is to recruit high-caliber undergraduate students who have demonstrated financial need and provide them with financial assistance to complete their undergraduate degrees.</string>
+    <string name="noaa">NOAA Educational Partnership Program Undergraduate Scholarship provides scholarships for two years of undergraduate study to students at Minority Serving Institutes majoring in STEM fields that directly support NOAA\'s mission. Participants conduct research at a NOAA facility during two paid summer internships</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="explore_pacefinity">Explore Pacefinity</string>
+    <string name="financial_aid_calculator">Financial Aid Calculator</string>
+    <string name="scholarship_page">Scholarship Page</string>
+    <string name="external_resources">External Resources</string>
+    <string name="pacefinity">Pacefinity</string>
+    <string name="no_aid">Not Elligible for Aid\n</string>
+    <string name="your_financial_aid_is_usd">Your Finanical Aid is USD</string>
+
+    ///Everything after this is for scholarship recycler view
+    <string-array name="scholarships">
+        <item>Honors College Scholarship Merit</item>
+        <item>Presidents Scholarship Merit</item>
+        <item>Trustee Recognition Award Merit</item>
+        <item>Pace Incentive Award Merit</item>
+        <item>Deans Transfer Scholarship Merit</item>
+        <item>Transfer Incentive Award Merit</item>
+        <item>Community College Student Transfer Award Merit</item>
+        <item>Alpha Beta Gamma Scholarship Merit</item>
+        <item>Phi Theta Kappa Award Merit</item>
+        <item>Legacy Scholarship Merit</item>
+        <item>Summer Scholars Award Merit</item>
+        <item>Community Service Scholarship</item>
+        <item>Veteran Tuition Scholarship</item>
+        <item>Endowed and restricted scholarships</item>
+        <item>Barnes N Nobles Book Scholarship</item>
+        <item>Pace Grant</item>
+        <item>Trustee Tuition Grant</item>
+    </string-array>
+    <string-array name="moneyRange">
+        <item>&amp;gt$15,000</item>
+        <item>$9,500</item>
+        <item>~$5000</item>
+        <item>~$5000</item>
+        <item>~$8000</item>
+        <item>~$5000</item>
+        <item>~$10,000</item>
+        <item>$1000</item>
+        <item>$1000</item>
+        <item>$1000</item>
+        <item>$3000</item>
+        <item>&amp;lt$5000</item>
+        <item>~50% tuition</item>
+        <item>Money Variable</item>
+        <item>Money Variable</item>
+        <item>Money Variable</item>
+        <item>Money Variable</item>
+    </string-array>
+    <string-array name="requirements">
+        <item>3.3 GPA</item>
+        <item>Freshman - 3.0 GPA - minimum of 1200 on SAT</item>
+        <item>Freshman - 2.0 GPA</item>
+        <item>Freshman - 2.0 GPA</item>
+        <item>Transfer - 3.0 GPA</item>
+        <item>Transfer - 2.0 GPA</item>
+        <item>CC Transfer - 3.2 GPA</item>
+        <item>Member of Alpha Beta Gamma- 3.0 QPA</item>
+        <item>Member of Phi Theta Kappa - 3.0 QPA</item>
+        <item>Parent who attended Pace - 2.0 QPA</item>
+        <item>Complete Paces summer scholar institute - 3.0 QPA</item>
+        <item>Freshman: High school average B and 1080 SAT - Transfer: 3.0 GPA - Financial need</item>
+        <item>Lack of information - Contact the athletic department for details</item>
+        <item>Must be a Veteran</item>
+        <item>Financial need based - 3.0 QPA - fafsa filed - Maintain good standing</item>
+        <item>Must apply online (Link included) - NO CAP - fafsa filed, matriculated</item>
+        <item>Financial need based - 2.0 QPA - US citizen</item>
+        <item>24 credits at pace - 3.5 GPA</item>
+    </string-array>
+    <string-array name="links">
+        <item>https://www.pace.edu/honors-college/new-york-city-students</item>
+        <item>https://www.collegexpress.com/scholarships/presidents-scholarship/2002720/</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.ncsasports.org/athletic-scholarships/football/new-york/pace-university</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants</item>
+        <item>https://bigfuture.collegeboard.org/scholarships/barnes-and-noble-scholarship</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item>https://www.pace.edu/financial-aid/types-of-financial-aid/institutional-scholarships-and-grants#merit</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="otherInfo">
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item>Merit Scholarship</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
 </resources>
